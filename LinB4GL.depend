@@ -1,0 +1,208 @@
+# depslib dependency file v1.0
+1126267506 source:c:\documents and settings\matthew webb\desktop\linb4gl\compiler\tomcomp.cpp
+	"TomComp.h"
+
+1164555488 c:\documents and settings\matthew webb\desktop\linb4gl\compiler\tomcomp.h
+	"../VM/TomVM.h"
+	"compParse.h"
+	"compFunction.h"
+	<map>
+	<set>
+
+1164540704 c:\documents and settings\matthew webb\desktop\linb4gl\vm\tomvm.h
+	"vmVariables.h"
+	"vmCode.h"
+	"HasErrorState.h"
+	"vmFunction.h"
+	"vmDebugger.h"
+
+1114710986 c:\documents and settings\matthew webb\desktop\linb4gl\vm\vmvariables.h
+	"vmData.h"
+	<vector>
+
+1114710982 c:\documents and settings\matthew webb\desktop\linb4gl\vm\vmdata.h
+	"vmTypes.h"
+	<list>
+	<set>
+
+1336450789 c:\documents and settings\matthew webb\desktop\linb4gl\vm\vmtypes.h
+	"Misc.h"
+	<string>
+	<vector>
+	<sstream>
+	<assert.h>
+	<math.h>
+	<mem.h>
+
+1164542750 c:\documents and settings\matthew webb\desktop\linb4gl\vm\misc.h
+	<string>
+
+1117892616 c:\documents and settings\matthew webb\desktop\linb4gl\vm\vmcode.h
+	"vmData.h"
+
+1114710980 c:\documents and settings\matthew webb\desktop\linb4gl\vm\haserrorstate.h
+	<string>
+	<assert.h>
+
+1114710984 c:\documents and settings\matthew webb\desktop\linb4gl\vm\vmfunction.h
+
+1114710984 c:\documents and settings\matthew webb\desktop\linb4gl\vm\vmdebugger.h
+	"vmCode.h"
+	<list>
+	<map>
+
+1164537808 c:\documents and settings\matthew webb\desktop\linb4gl\compiler\compparse.h
+	"../VM/vmTypes.h"
+	"../VM/TomVM.h"
+
+1164537570 c:\documents and settings\matthew webb\desktop\linb4gl\compiler\compfunction.h
+	"../VM/vmTypes.h"
+	"../VM/vmFunction.h"
+	<vector>
+
+1165247616 source:c:\documents and settings\matthew webb\desktop\linb4gl\compiler\compfunction.cpp
+	"compFunction.h"
+
+1114710956 source:c:\documents and settings\matthew webb\desktop\linb4gl\compiler\compparse.cpp
+	"compParse.h"
+
+1336414669 source:c:\documents and settings\matthew webb\desktop\linb4gl\functionlibs\davyfunctionlib.cpp
+	"DavyFunctionLib.h"
+	<iostream>
+	<GL/gl.h>
+	<GL/glu.h>
+	<GL/freeglut.h>
+	<GL/Glext.h>
+
+1165246540 c:\documents and settings\matthew webb\desktop\linb4gl\functionlibs\davyfunctionlib.h
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	"../Compiler/TomComp.h"
+	"../VM/TomVM.h"
+
+1336414724 source:c:\documents and settings\matthew webb\desktop\linb4gl\functionlibs\glbasiclib_gl.cpp
+	"GLBasicLib_gl.h"
+	<GL/glut.h>
+	<GL/GLext.h>
+
+1165187088 c:\documents and settings\matthew webb\desktop\linb4gl\functionlibs\glbasiclib_gl.h
+	"../Compiler/TomComp.h"
+	"../VM/TomVM.h"
+
+1164639826 source:c:\documents and settings\matthew webb\desktop\linb4gl\functionlibs\glbasiclib_glu.cpp
+	"GLBasicLib_glu.h"
+	<GL/glut.h>
+
+1164639668 c:\documents and settings\matthew webb\desktop\linb4gl\functionlibs\glbasiclib_glu.h
+	"../Compiler/TomComp.h"
+	"../VM/TomVM.h"
+
+1182259402 source:c:\documents and settings\matthew webb\desktop\linb4gl\functionlibs\jonwindows.cpp
+	"JonWindows.h"
+
+1182259582 c:\documents and settings\matthew webb\desktop\linb4gl\functionlibs\jonwindows.h
+	<SDL/SDL.h>
+
+1336439084 source:c:\documents and settings\matthew webb\desktop\linb4gl\functionlibs\tomfileiobasiclib.cpp
+	"TomFileIOBasicLib.h"
+	"../VM/vmData.h"
+	<fstream>
+	"JonWindows.h"
+
+1164634822 c:\documents and settings\matthew webb\desktop\linb4gl\functionlibs\tomfileiobasiclib.h
+	"../Compiler/TomComp.h"
+	"../Routines/EmbeddedFiles.h"
+
+1164634920 c:\documents and settings\matthew webb\desktop\linb4gl\routines\embeddedfiles.h
+	"../VM/Misc.h"
+	<string>
+	<sstream>
+	<map>
+	<fstream>
+	"../VM/HasErrorState.h"
+
+1336439365 source:c:\documents and settings\matthew webb\desktop\linb4gl\functionlibs\tomstdbasiclib.cpp
+	"TomStdBasicLib.h"
+	"JonWindows.h"
+	<stdlib.h>
+	<time.h>
+
+1164633668 c:\documents and settings\matthew webb\desktop\linb4gl\functionlibs\tomstdbasiclib.h
+	"../Compiler/TomComp.h"
+	<math.h>
+
+1164636016 source:c:\documents and settings\matthew webb\desktop\linb4gl\functionlibs\tomtrigbasiclib.cpp
+	"TomTrigBasicLib.h"
+
+1164635814 c:\documents and settings\matthew webb\desktop\linb4gl\functionlibs\tomtrigbasiclib.h
+	"../Compiler/TomComp.h"
+	"TomStdBasicLib.h"
+	<math.h>
+
+1336439567 source:c:\documents and settings\matthew webb\desktop\linb4gl\functionlibs\tomwindowsbasiclib.cpp
+	"TomWindowsBasicLib.h"
+	<fstream>
+	<atlbase.h>
+	<atlcom.h>
+	<vcl.h>
+	"SpeechLib_TLB.h"
+
+1182259534 c:\documents and settings\matthew webb\desktop\linb4gl\functionlibs\tomwindowsbasiclib.h
+	"../Compiler/TomComp.h"
+	"../Routines/EmbeddedFiles.h"
+	"JonWindows.h"
+
+1164635070 source:c:\documents and settings\matthew webb\desktop\linb4gl\routines\embeddedfiles.cpp
+	"EmbeddedFiles.h"
+	<assert.h>
+	<string.h>
+	"../FunctionLibs/JonWindows.h"
+	"../VM/vmTypes.h"
+
+1114710978 source:c:\documents and settings\matthew webb\desktop\linb4gl\vm\haserrorstate.cpp
+	"HasErrorState.h"
+
+1164542802 source:c:\documents and settings\matthew webb\desktop\linb4gl\vm\misc.cpp
+
+1114710980 source:c:\documents and settings\matthew webb\desktop\linb4gl\vm\streaming.cpp
+	"Streaming.h"
+
+1114710980 c:\documents and settings\matthew webb\desktop\linb4gl\vm\streaming.h
+	<strstream>
+	<string>
+
+1164540722 source:c:\documents and settings\matthew webb\desktop\linb4gl\vm\tomvm.cpp
+	"TomVM.h"
+
+1117892616 source:c:\documents and settings\matthew webb\desktop\linb4gl\vm\vmcode.cpp
+	"vmCode.h"
+
+1114710982 source:c:\documents and settings\matthew webb\desktop\linb4gl\vm\vmdata.cpp
+	"vmData.h"
+
+1114710982 source:c:\documents and settings\matthew webb\desktop\linb4gl\vm\vmdebugger.cpp
+	"vmDebugger.h"
+
+1114710984 source:c:\documents and settings\matthew webb\desktop\linb4gl\vm\vmfunction.cpp
+	"vmFunction.h"
+
+1164550062 source:c:\documents and settings\matthew webb\desktop\linb4gl\vm\vmtypes.cpp
+	"vmTypes.h"
+	<sstream>
+	"Misc.h"
+
+1114710984 source:c:\documents and settings\matthew webb\desktop\linb4gl\vm\vmvariables.cpp
+	"vmVariables.h"
+
+1182259174 source:c:\documents and settings\matthew webb\desktop\linb4gl\main.cpp
+	<fstream>
+	<iostream>
+	"Compiler/TomComp.h"
+	"FunctionLibs/TomStdBasicLib.h"
+	"FunctionLibs/TomTrigBasicLib.h"
+	"FunctionLibs/TomFileIOBasicLib.h"
+	"FunctionLibs/TomWindowsBasicLib.h"
+	"FunctionLibs/GLBasicLib_gl.h"
+	"FunctionLibs/GLBasicLib_glu.h"
+	"FunctionLibs/DavyFunctionLib.h"
+

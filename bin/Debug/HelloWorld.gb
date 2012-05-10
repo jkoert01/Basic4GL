@@ -1,0 +1,4 @@
+printr "Hello world"
+printr TickCount()
+sleep(1000)
+printr TickCount();

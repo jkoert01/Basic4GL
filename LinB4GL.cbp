@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="LinB4GL" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin\Debug\LinB4GL" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\Debug\" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-w" />
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add option="-lmingw32" />
+					<Add option="-lopengl32" />
+					<Add option="-lglu32" />
+					<Add option="-lgdi32" />
+					<Add option="-lwinmm" />
+					<Add option="-lSDLmain" />
+					<Add option="-lSDL" />
+					<Add option="-lSDL_image" />
+					<Add option="-lfreeglut32" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin\Release\LinB4GL" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\Release\" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="Compiler\TomComp.cpp" />
+		<Unit filename="Compiler\TomComp.h" />
+		<Unit filename="Compiler\compFunction.cpp" />
+		<Unit filename="Compiler\compFunction.h" />
+		<Unit filename="Compiler\compParse.cpp" />
+		<Unit filename="Compiler\compParse.h" />
+		<Unit filename="FunctionLibs\DavyFunctionLib.cpp" />
+		<Unit filename="FunctionLibs\DavyFunctionLib.h" />
+		<Unit filename="FunctionLibs\GLBasicLib_gl.cpp" />
+		<Unit filename="FunctionLibs\GLBasicLib_gl.h" />
+		<Unit filename="FunctionLibs\GLBasicLib_glu.cpp" />
+		<Unit filename="FunctionLibs\GLBasicLib_glu.h" />
+		<Unit filename="FunctionLibs\JonWindows.cpp" />
+		<Unit filename="FunctionLibs\JonWindows.h" />
+		<Unit filename="FunctionLibs\TomFileIOBasicLib.cpp" />
+		<Unit filename="FunctionLibs\TomFileIOBasicLib.h" />
+		<Unit filename="FunctionLibs\TomStdBasicLib.cpp" />
+		<Unit filename="FunctionLibs\TomStdBasicLib.h" />
+		<Unit filename="FunctionLibs\TomTrigBasicLib.cpp" />
+		<Unit filename="FunctionLibs\TomTrigBasicLib.h" />
+		<Unit filename="FunctionLibs\TomWindowsBasicLib.cpp" />
+		<Unit filename="FunctionLibs\TomWindowsBasicLib.h" />
+		<Unit filename="Main.cpp" />
+		<Unit filename="Routines\EmbeddedFiles.cpp" />
+		<Unit filename="Routines\EmbeddedFiles.h" />
+		<Unit filename="VM\HasErrorState.cpp" />
+		<Unit filename="VM\HasErrorState.h" />
+		<Unit filename="VM\Misc.cpp" />
+		<Unit filename="VM\Misc.h" />
+		<Unit filename="VM\Streaming.cpp" />
+		<Unit filename="VM\Streaming.h" />
+		<Unit filename="VM\TomVM.cpp" />
+		<Unit filename="VM\TomVM.h" />
+		<Unit filename="VM\vmCode.cpp" />
+		<Unit filename="VM\vmCode.h" />
+		<Unit filename="VM\vmData.cpp" />
+		<Unit filename="VM\vmData.h" />
+		<Unit filename="VM\vmDebugger.cpp" />
+		<Unit filename="VM\vmDebugger.h" />
+		<Unit filename="VM\vmFunction.cpp" />
+		<Unit filename="VM\vmFunction.h" />
+		<Unit filename="VM\vmTypes.cpp" />
+		<Unit filename="VM\vmTypes.h" />
+		<Unit filename="VM\vmVariables.cpp" />
+		<Unit filename="VM\vmVariables.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

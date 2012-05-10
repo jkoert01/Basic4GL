@@ -1,0 +1,35 @@
+dim Ang#
+dim myTex1, myTex2
+
+myTex1=loadmipmaptexture("myTexture1.png")
+myTex2=loadmipmaptexture("myTexture2.png")
+
+glEnable(GL_TEXTURE_2D)
+
+do
+Ang# = Ang# + .2
+glClear(GL_COLOR_BUFFER_BIT or GL_DEPTH_BUFFER_BIT)
+
+glLoadIdentity()
+glTranslatef(0,0,-5)
+glRotatef(Ang#, 1, 0, 0)
+glRotatef(Ang#, 1, 1, 0)
+
+glBindTexture(GL_TEXTURE_2D, myTex1)
+glBegin(GL_QUADS)
+glTexCoord2f(0,1): glVertex3f(-1, 1,-1)
+glTexCoord2f(1,1): glVertex3f( 1, 1,-1)
+glTexCoord2f(1,0): glVertex3f( 1,-1,-1)
+glTexCoord2f(0,0): glVertex3f(-1,-1,-1)
+glEnd()
+
+glBindTexture(GL_TEXTURE_2D, myTex2)
+glBegin(GL_QUADS)
+glTexCoord2f(0,1): glVertex3f(-1, 1, 1)
+glTexCoord2f(1,1): glVertex3f( 1, 1, 1)
+glTexCoord2f(1,0): glVertex3f( 1,-1, 1)
+glTexCoord2f(0,0): glVertex3f(-1,-1, 1)
+glEnd()
+
+SwapBuffers()
+loop
